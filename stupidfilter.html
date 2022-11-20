@@ -1,0 +1,309 @@
+<!DOCTYPE html> <!--Test html document-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" type="text/css" href="static/main.css">-->
+    <link rel="stylesheet" type="text/css" href="stupidfilter.css" /> <!--Test css file-->
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="btn-container">
+      <h3>Tags</h3>
+      <button class="btn" onclick ="filterObjects('web')">Web</button>
+      <button class="btn" onclick ="filterObjects('linux')">Linux</button>
+      <button class="btn" onclick ="filterObjects('cryptography')">
+        Cryptography
+      </button>
+      <button class="btn" onclick ="filterObjects('coding')">Coding</button>
+      <button class="btn" onclick ="filterObjects('other')">
+        Some other tag
+      </button>
+      <button class="btn active" onclick ="filterObjects('all')">
+        Show all
+      </button>
+    </div>
+    <div class="Objects">
+     
+      <div class="box linux">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"width="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+
+      <div class="box linux">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box linux">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box coding">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box linux">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box linux">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box  other">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box cryptography">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box coding">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+      <div class="box web">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div> <div class="box web">
+        <ul>
+        <li class="challenge-item">
+          <img
+            class="challenge-image"
+            alt="Hacker"
+            src="static/hero.png"
+            height="150px"
+          />
+          <h3 class="challenge-title">Title of room (on-site)</h3>
+         
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star active"></li>
+            <li class="rating-star"></li>
+          </ul>
+          <small class="challenge-meta">2-6 participants</small>
+          <p class="challenge-description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <button class="button primary">Book this room</button>
+        </li>
+      </div>
+    </div>
+
+    <script src="stupidtags.js"></script>
+  </body>
+</html>
