@@ -1,7 +1,6 @@
 
 /* show all and reset
 function w3AddClass element and name argument , add class
-
 */ 
 filterObjects("all");
 function filterObjects(c) {
